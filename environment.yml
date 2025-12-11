@@ -1,0 +1,11 @@
+name: bioinformatics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - prodigal       # The gene prediction tool
+  - samtools       # Common bio tool
+  - hmmer          # Common bio tool
+  - jupyterlab     # The GUI interface
